@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AI Smart Robot Vacuum Cleaner</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>AI Smart Robot Vaccum Cleaner</h1>
+
+        <div id="room">
+            <div id="vacuum"></div>
+            <div class="obstacle" style="top: 100px;left: 200px;"></div>
+            <div class="obstacle" style="top: 300px;left: 120px;"></div>
+            <div class="obstacle" style="top: 250px;left: 350px;"></div>
+            <div id="dock"></div>
+            </div>
+
+            <div id="battery-container">
+            <p>Battery: <span id="battery">100</span>%</p>
+            </div>
+
+            <button onclick="startCleaning()">startCleaning</button>
+            <button onclick="stopCleaning()">Stop</button>
+
+            <br><br>
+            <label>Speed:</label>
+            <input type="range" min="1" max="5" value="2" oninput="changeSpeed"(this.value)>
+
+            <script src="script .js"></script>
+    </body>
+</html>
